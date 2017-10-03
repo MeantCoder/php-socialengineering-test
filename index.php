@@ -12,15 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
   </head>
   <body>
-  <section class="section">
     <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+    <div class="notification">
+        This container is <strong>centered</strong> on desktop.
     </div>
-  </section>
-  </body>
+    </div>
 </html>
