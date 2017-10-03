@@ -16,6 +16,7 @@
     <div class="notification">
         This container is <strong>fluid</strong>: it will have a 24px gap on either side, on any viewport size.
         <div class="field">
+        <div class="container">
             <p class="control has-icons-left has-icons-right">
                 <input class="input" type="email" placeholder="Email">
                 <span class="icon is-small is-left">
@@ -36,10 +37,11 @@
             </div>
             <div class="field">
             <p class="control">
-                <button class="button is-success">
+                <button class="button is-success is-grouped-centered">
                 Login
                 </button>
             </p>
+        </div>
         </div>
     </div>
     </div>
