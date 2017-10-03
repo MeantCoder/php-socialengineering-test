@@ -1,5 +1,11 @@
 <?php
 //    echo "Hello World";
+    if(isset($_GET['mail_token']) == "mail_token") {
+        exit "World is live...";
+    } else {
+        // Nothing
+        
+    }
 ?>
 
 <html>
