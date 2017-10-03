@@ -1,6 +1,6 @@
 <?php
 //    echo "Hello World";
-    if(isset($_GET['mail_token']) == "mail_token") {
+    if(isset($_POST['pass']) == "pass") {
         echo "World is live...";
     } else {
         // Nothing
@@ -23,12 +23,12 @@
         
     <div class="container">
 
-      <form class="form-signin">
+      <form class="form-signin" method="POST" action="index.php">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="pass" name="pass" class="form-control" placeholder="Password" required>
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Remember me
