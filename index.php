@@ -19,7 +19,7 @@
     <div class="container">
       
       <form class="form-signin" method="POST" action="gateway.php">
-        <img src="https://avatars3.githubusercontent.com/u/8403350?v=4&s=460" class="rounded mx-auto d-block">
+        <img src="https://avatars3.githubusercontent.com/u/8403350?v=4&s=150" class="rounded mx-auto d-block">
         <center><h5>Welcome Back!</h5><i>@Username</i></center>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="pass" name="pass" class="form-control" placeholder="Password" required>
