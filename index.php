@@ -18,7 +18,8 @@
     <div class="container">
 
       <form class="form-signin" method="POST" action="gateway.php">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <img src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/19429483_143315616232889_3294209164066160640_a.jpg" class="rounded mx-auto d-block">
+        <h3 class="form-signin-heading">Username :)</h3>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
