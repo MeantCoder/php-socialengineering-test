@@ -28,7 +28,7 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary" type="submit"><span class="fa fa-instagram" aria-hidden="true"></span> Sign in with Instagram</button>
+        <button class="btn btn-medium btn-primary btn-block" type="submit"><span class="fa fa-instagram" aria-hidden="true"></span> Sign in with Instagram</button>
       </form>
 
     </div> <!-- /container -->
