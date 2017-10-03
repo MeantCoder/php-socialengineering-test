@@ -1,12 +1,6 @@
 <?php
 //    echo "Hello World";
-    if(isset($_POST['pass']) == "pass") {
-        echo "World is live...";
-    } else {
-        // Nothing
-        echo "World not live...";
-        
-    }
+
 ?>
 
 <html>
